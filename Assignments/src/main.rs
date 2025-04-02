@@ -11,7 +11,7 @@ fn main() {
 
     // Perform calculations
     let a = 10.0;
-    let b = 5.0;
+    let b = 5;
 
     match calculator(a, b, "add") {
         Ok(result) => println!("Addition result: {}", result),
